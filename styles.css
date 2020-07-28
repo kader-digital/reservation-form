@@ -11,6 +11,7 @@
 h1,h3{
     display: inline;
 }
+
 .wrapper {
 
     width: 500px;
@@ -24,15 +25,23 @@ ul li{
     display: inline;
     justify: space-between;
 }
+ul li a:hover, h3:hover{
+
+    background-color: lightgrey;
+    color: red;
+
+}
 
 form input, form textarea, form select{
 
     float: right;
+    display: inline-block;
 
 }
 
 #submit {
     float: left;
+    display: block;
     position: absolute;
 }
 
@@ -42,8 +51,3 @@ legend {
     border-style: ridge;
 }
 
-#date {
-
-    text-align: right;
-
-}
