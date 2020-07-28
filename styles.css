@@ -29,20 +29,41 @@ ul li a:hover, h3:hover{
 
     background-color: lightgrey;
     color: red;
+    text-align: center;
 
 }
 
-form input, form textarea, form select{
+form input, form textarea, form select, p{
 
     float: right;
     display: inline-block;
+    margin: 0px;
+    padding: 0px;
 
+}
+
+p {
+    float: left;
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 2px;
+}
+
+textarea {
+    width: 65%;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
 }
 
 #submit {
     float: left;
-    display: block;
-    position: absolute;
+    text-align: center;
+    margin-bottom: 10px;
+    
 }
 
 legend {
