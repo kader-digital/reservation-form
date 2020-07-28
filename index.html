@@ -15,13 +15,70 @@
                 <h1>1701 Seafood & Steaks</h1>
                 <h3><a type="tel" href="+1 (610) 704-5888">Call</a></h3>
                 <h3><a href="hours.html" target="_blank">Hours</a></h3>
-                <hr>
             </header>
-
             <div class="form-container">
+                <hr>
                 <form action="form.php" method="POST" onsubmit="alert('poopjk');">
-                    
+                    <fieldset>
+                        <legend>Reservation Books</legend>
+                        Name: <input type="text" minlength="2" maxlength="20" required>
+                        <hr>
+                        Tel:  <input type="tel" minlength="10" maxlength="16" required>
+                        <hr>
+                        Date: <input type="date" required>
+                        <hr>
+                        Party Size: 
+                        <select class="partySize">
+                            <option class="size">1</option>
+                            <option class="size">2</option>
+                            <option class="size">3</option>
+                            <option class="size">4</option>
+                            <option class="size">5</option>
+                            <option class="size">6</option>
+                            <option class="size">7</option>
+                            <option class="size">8</option>
+                            <option class="size">9</option>
+                            <option class="size">10</option>
+                            <option class="size">11</option>
+                            <option class="size">12</option>
+                        </select>
+                        <hr>
+                        Available Times: 
+                        <select class="availableTimes">
+                            <option class="time">5:00</option>
+                            <option class="time">5:15</option>
+                            <option class="time">5:30</option>
+                            <option class="time">5:45</option>
+                            <option class="time">6:00</option>
+                            <option class="time">6:15</option>
+                            <option class="time">6:30</option>
+                            <option class="time">6:45</option>
+                            <option class="time">7:00</option>
+                            <option class="time">7:15</option>
+                            <option class="time">7:30</option>
+                            <option class="time">7:45</option>
+                            <option class="time">8:00</option>
+                            <option class="time">8:15</option>
+                            <option class="time">8:30</option>
+                            <option class="time">8:45</option>
+                            <option class="time">9:00</option>
+                            <option class="time">9:15</option>
+                            <option class="time">9:30</option>
+                            <option class="time">9:45</option>
+                            <option class="time">10:00</option>
+                            <option class="time">10:15</option>
+                            <option class="time">10:30</option>
+                            <option class="time">10:45</option>
+                        </select>
+                        <hr>
+                        Dietary Restrictions,<br> Special Occasions,<br> Requests...<br>
+                        <textarea cols="20" rows="5">
+                        </textarea>
+                        <hr>
+                        <input type="submit" value="submit" id="submit">
+                    </fieldset>
                 </form>
+                <hr>
             </div>
 
             <footer>
