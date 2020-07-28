@@ -1,8 +1,35 @@
+* {
+
+    color: black;
+    text-decoration: none;
+    margin: 0px auto 0px auto;
+    padding: 0px 5px 0px 5px;
+
+}
+
+h1,h3{
+    display: inline;
+}
 .wrapper {
 
-    margin: 0px auto 0px auto;
-    padding: 0px 0px 0px 0px;
-    width: 700px;
+    width: 600px;
     height: 670px;
 
 }
+
+ul li{
+    list-style-type: none;
+    float: left;
+    display: inline;
+    justify: space-between;
+}
+
+form input, form textarea, form select{
+
+    float: right;
+
+}
+
+#submit {
+    float: left;
+    position: absolute;
