@@ -2,10 +2,10 @@
 
 <html>
     <head>
+        <meta charset="UTF-8">
         <meta name="author" content="Kader Arnold">
         <meta name="viewport" content="display=device-width">
-        <meta charset="UTF-8">
-        <meta lang="en-us">
+       
         <link href="styles.css" rel="stylesheet" type="text/css">
         <title>1701</title>
     </head>
@@ -25,7 +25,7 @@
                         <hr>
                         Tel:  <input type="tel" minlength="10" maxlength="16" required>
                         <hr>
-                        Date: <input type="text" required>
+                        Date: <input type="text" id="date" required>
                         <hr>
                         Party Size: 
                         <select class="partySize">
@@ -71,7 +71,7 @@
                             <option class="time">10:45</option>
                         </select>
                         <hr>
-                        Dietary Restrictions,Special Occasions, Requests...
+                        Dietary Restrictions, Special Occasions, Requests...
                         <textarea cols="20" rows="5"></textarea>
                         <br>
                         <br>
@@ -92,4 +92,5 @@
             </footer>
         </div>
     </body>
+    <script src="fill.js"></script>
 </html>

@@ -1,5 +1,6 @@
 * {
 
+    text-align: left;
     color: black;
     text-decoration: none;
     margin: 0px auto 0px auto;
@@ -12,7 +13,7 @@ h1,h3{
 }
 .wrapper {
 
-    width: 600px;
+    width: 500px;
     height: 670px;
 
 }
@@ -39,4 +40,10 @@ legend {
     
     display: block;
     border-style: ridge;
+}
+
+#date {
+
+    text-align: right;
+
 }
