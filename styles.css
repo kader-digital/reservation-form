@@ -33,3 +33,10 @@ form input, form textarea, form select{
 #submit {
     float: left;
     position: absolute;
+}
+
+legend {
+    
+    display: block;
+    border-style: ridge;
+}
